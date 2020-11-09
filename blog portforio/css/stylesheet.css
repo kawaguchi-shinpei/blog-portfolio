@@ -1,0 +1,352 @@
+@charset "UTF-8";
+header {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  border-bottom: 2px solid #000;
+}
+
+.header-with {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+.header-title {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 12px;
+}
+
+.header-menu li {
+  list-style: none;
+}
+
+.mv {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.mv-with {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mv-title {
+  text-align: center;
+  padding: 250px 0;
+  font-size: 44px;
+}
+
+.section {
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.section-with {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.section-sbtitle {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.Profile {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.Profile img {
+  border-radius: 50%;
+}
+
+.Profile-with {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Profile-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Profile-text {
+  text-align: center;
+  max-width: 370px;
+  margin-left: 150px;
+}
+
+.Profile-name {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.Profile-warp {
+  padding-bottom: 20px;
+}
+
+.Profile-warp_text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Profile-warp_question {
+  padding-bottom: 20px;
+}
+
+.skill {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.skill-with {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.skill-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skill-content_title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 41px;
+  padding-bottom: 50px;
+}
+
+.skill-content_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.skill-content_item {
+  width: 370px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.skill-content_item img {
+  width: 100%;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.skill-content_item img:hover {
+  opacity: 0.6;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.skill-content_item1 {
+  max-width: 370px;
+  background-color: #F6F6F6;
+  padding: 20px;
+}
+
+.service {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.service img {
+  height: 100%;
+  width: 40%;
+}
+
+.service-warp {
+  background-color: #F6F6F6;
+}
+
+.service-content {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+.service-content_left {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.service-text {
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+
+.service-text_left {
+  max-width: 400px;
+}
+
+.service-text_title {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.service-text_sbtitle {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.service-text_small {
+  padding-bottom: 30px;
+}
+
+.service-text_number {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 12px 8px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.service-text_number2 {
+  background-color: #F6F6F6;
+  padding: 40px 12px 8px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.service-text_titleleft {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.service-text_in {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.service-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.service-image_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.service-contentsecond {
+  display: none;
+}
+
+.contact {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.contact-with {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact input {
+  width: 70%;
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+
+.contact textarea {
+  width: 70%;
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+
+.contact-btn {
+  padding: 20px 120px;
+  margin-bottom: 50px;
+}
+
+.contact-btn_text {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 120px;
+}
+
+footer {
+  background-color: #333;
+}
+
+.footer {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.footer-with {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=stylesheet.css.map */
