@@ -1,0 +1,127 @@
+.mv{
+    background-image: url(image/mv.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 1023px){
+/* ハンバーガーメニュー */
+/* ハンバーガー */
+.nav-btn{
+  display: block;
+  width: 50px;
+  height: 50px;
+position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+a.nav-btn.active{
+  position: fixed;
+}
+
+.nav-btn div{
+  height: 1px;
+  width: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+
+
+
+
+.nav-btn div:nth-of-type(1){
+  transform: translate(-50%, -10px);
+}
+
+.nav-btn div:nth-of-type(3){
+  transform: translate(-50%, 10px);
+  }
+
+a.nav-btn.active div:nth-of-type(1){
+    transform: rotate(45deg) translate(-50%, 0);
+    transform-origin: 0% 50%;
+  }
+
+a.nav-btn.active div:nth-of-type(2){
+    opacity: 0;
+    }
+
+a.nav-btn.active div:nth-of-type(3){
+      transform: rotate(-45deg) translate(-50%, 0);
+      transform-origin: 0% 50%;
+    }
+
+    nav{
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.8s;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+    }
+
+    nav.open{
+      opacity: 1;
+      visibility: visible;
+      transition: 0.8s;
+    }
+
+nav ul{
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 50px;
+}
+
+.header-nav li{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 0;
+  border-bottom: 1px solid #555;
+}
+
+}
+
+/* scroll top */
+.back-to-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  display: none;
+}
+.back-to-top:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #333;
+}
+.back-to-top:after {
+  content: "↑";
+  display: block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
